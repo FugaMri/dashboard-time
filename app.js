@@ -45,7 +45,6 @@ class DashboardItem {
 
       this.time = this.container.querySelector(`.dashboard__item--${id} .tracking-card__time `);
       this.prev = this.container.querySelector(`.dashboard__item--${id} .tracking-card__prev-period `);
-
     }
 
     changeView(view) {
